@@ -15,7 +15,7 @@ public class MercFirstDemo extends HttpServlet {
 
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		resp.getWriter().print("MercFirstDemo for Java CICD Version New !\n");
+		resp.getWriter().print("MercFirstDemo for Java CICD Version New After delete!\n");
 	}
 
 	public static void main(String[] args) throws Exception {
